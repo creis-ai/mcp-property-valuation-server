@@ -1,0 +1,35 @@
+{
+  "name": "mcp-property-valuation-server",
+  "version": "0.0.1-alpha",
+  "description": "MCP服务器，提供房产小区评级和评估功能",
+  "bin": {
+    "property-valuation-mcp": "index.cjs"
+  },
+  "type": "module",
+  "keywords": [
+    "mcp",
+    "property",
+    "valuation",
+    "real-estate",
+    "community",
+    "rating"
+  ],
+  "author": "CIH <creisxcx1@fang.com>",
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cih-web-team/property-valuation-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cih-web-team/property-valuation-mcp/issues"
+  },
+  "homepage": "https://github.com/cih-web-team/property-valuation-mcp#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC"
+}
