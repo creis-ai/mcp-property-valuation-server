@@ -2,8 +2,15 @@
 
 [![NPM Version](https://img.shields.io/npm/v/mcp-property-valuation-server.svg?logo=npm)](https://www.npmjs.com/package/mcp-property-valuation-server)
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D18-green.svg?logo=node.js)](https://nodejs.org)
+[![zh-CN](https://img.shields.io/badge/lang-zh--CN-red.svg)](https://github.com/creis-ai/mcp-property-valuation-server/blob/master/README.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/creis-ai/mcp-property-valuation-server/blob/master/README.en.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![MCP Server](https://img.shields.io/badge/MCP-Server-blue)](https://modelcontextprotocol.io)
+
+<!-- 申请访问令牌 -->
+<!-- [![Apply For Access Token](https://img.shields.io/badge/%E7%94%B3%E8%AF%B7%E5%BC%80%E9%80%9A-gray?label=%F0%9F%91%8B)](https://wuye-ai.cricbigdata.com/mcp) -->
+<!-- 实践指南 -->
+<!-- [![Practical Guide](https://img.shields.io/badge/%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%8D%97-gray?label=%F0%9F%A7%AD)](https://wuye-ai.cricbigdata.com/mcp) -->
 
 > 为 AI 助手提供「小区评级 / 小区评估 / 房产估值」专业能力的 MCP Server。为房产交易、投资尽调、押品风控等场景提供权威数据支撑。
 
@@ -166,14 +173,8 @@
 
 ## 🤝 合作与支持
 
-- **问题反馈**: 请通过 [GitHub Issues](https://github.com/cih-web-team/property-valuation-mcp/issues) 提交您的问题或建议。
+- **问题反馈**: 请通过 [GitHub Issues](https://github.com/creis-ai/mcp-property-valuation-server/issues) 提交您的问题或建议。
 - **联系我们**: 如需获取 `APPID`、商务合作或技术支持，请联系 `creisxcx1@fang.com`。
-
----
-
-## 📝 许可证
-
-本项目采用 [MIT License](LICENSE)。
 
 ---
 
