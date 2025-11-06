@@ -34,11 +34,11 @@
 
 📧 **请联系**: `creisxcx1@fang.com` 获取您的专属 `APPID`。
 
-### 2. Stdio 方式
+### 2. 配置 MCP 客户端
 
 您可以在任何支持 Model Context Protocol (MCP) 的客户端（如 Claude Desktop、MCP IDE 等）中，通过以下配置来启用本服务。
 
-#### 方式一：使用 NPM 包 (即将发布)
+#### 方式一：Stdio 方式
 
 当本项目正式发布到 NPM 后，您可以通过 `npx` 直接运行，配置将更加简洁：
 

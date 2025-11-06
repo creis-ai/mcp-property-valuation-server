@@ -34,11 +34,11 @@ Before using this service, you need to obtain a valid `APPID`.
 
 📧 **Contact**: `creisxcx1@fang.com` to get your exclusive `APPID`.
 
-### 2. Stdio Method
+### 2. Configure MCP Client
 
 You can enable this service through the following configuration in any client that supports Model Context Protocol (MCP) (such as Claude Desktop, MCP IDE, etc.).
 
-#### Method 1: Using NPM Package (Coming Soon)
+#### Method 1: Stdio Method
 
 When this project is officially released to NPM, you can run it directly through `npx` with a more concise configuration:
 
