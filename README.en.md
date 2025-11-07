@@ -75,10 +75,10 @@ If you have a public online service address, you can also use SSE mode:
 }
 ```
 
-**Recommended** official MCP Server URLs:
+<!-- **Recommended** official MCP Server URLs:
 
 - Test Environment: `https://testcreis.cih-index.com/mcp-service`
-- Production Environment: `https://creis.cih-index.com/mcp-service`
+- Production Environment: `https://creis.cih-index.com/mcp-service` -->
 
 ### 3. Verify Connection
 

@@ -75,10 +75,10 @@
 }
 ```
 
-**推荐**您可以使用我们提供的官方 MCP Server URL：
+<!-- **推荐**您可以使用我们提供的官方 MCP Server URL：
 
 - 测试环境：`https://testcreis.cih-index.com/mcp-service`
-- 生产环境：`https://creis.cih-index.com/mcp-service`
+- 生产环境：`https://creis.cih-index.com/mcp-service` -->
 
 ### 3. 验证连接
 
