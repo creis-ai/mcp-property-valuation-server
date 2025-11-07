@@ -66,7 +66,7 @@
   "mcpServers": {
     "cih-property-valuation": {
       "transportType": "sse",
-      "url": "http://10.32.188.133:33134/sse",
+      "url": "https://creis.cih-index.com/mcp-service",
       "headers": {
         "MCP-INDUSTRY-APPID": "您的APPID"
       }
@@ -77,8 +77,8 @@
 
 **推荐**您可以使用我们提供的官方 MCP Server URL：
 
-- 测试环境：`http://10.32.188.133:33134/sse`
-- 生产环境：`http://10.32.188.133:33134/sse`
+- 测试环境：`https://testcreis.cih-index.com/mcp-service`
+- 生产环境：`https://creis.cih-index.com/mcp-service`
 
 ### 3. 验证连接
 

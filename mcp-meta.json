@@ -1,0 +1,26 @@
+{
+  "name": "mcp-property-valuation-server",
+  "title": "中指房产估值 MCP",
+  "description": "MCP服务器，提供房产小区评级和评估功能",
+  "author": {
+    "name": "CIH Web Team",
+    "email": "creisxcx1@fang.com"
+  },
+  "gitUrl": "https://github.com/creis-ai/mcp-property-valuation-server",
+  "tags": [
+    "知识库",
+    "行业应用",
+    "CIH",
+    "房产评估"
+  ],
+  "memory": 0.5,
+  "cpu": 0.25,
+  "min_instances": 1,
+  "max_instances": 1,
+  "port": 3011,
+  "logo": [],
+  "env_params": {
+    "MCP-INDUSTRY-APPID": "MCP 应用 AppID。"
+  },
+  "transport": "stdio"
+}

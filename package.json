@@ -1,6 +1,6 @@
 {
   "name": "mcp-property-valuation-server",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "MCP服务器，提供房产小区评级和评估功能",
   "bin": {
     "property-valuation-mcp": "index.cjs"
@@ -20,6 +20,7 @@
     "url": "https://github.com/creis-ai/mcp-property-valuation-server/issues"
   },
   "homepage": "https://github.com/creis-ai/mcp-property-valuation-server#readme",
+  "dependencies": {},
   "devDependencies": {},
   "engines": {
     "node": ">=18.0.0"
@@ -27,9 +28,5 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/creis-ai/mcp-property-valuation-server.git"
-  },
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
