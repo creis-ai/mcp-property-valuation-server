@@ -24,7 +24,6 @@
     "url": "https://github.com/creis-ai/mcp-property-valuation-server/issues"
   },
   "homepage": "https://github.com/creis-ai/mcp-property-valuation-server#readme",
-  "dependencies": {},
   "devDependencies": {},
   "engines": {
     "node": ">=18.0.0"
