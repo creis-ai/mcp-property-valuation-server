@@ -7,11 +7,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![MCP Server](https://img.shields.io/badge/MCP-Server-blue)](https://modelcontextprotocol.io)
 
-<!-- 申请访问令牌 -->
-<!-- [![Apply For Access Token](https://img.shields.io/badge/%E7%94%B3%E8%AF%B7%E5%BC%80%E9%80%9A-gray?label=%F0%9F%91%8B)](https://wuye-ai.cricbigdata.com/mcp) -->
-<!-- 实践指南 -->
-<!-- [![Practical Guide](https://img.shields.io/badge/%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%8D%97-gray?label=%F0%9F%A7%AD)](https://wuye-ai.cricbigdata.com/mcp) -->
-
 > 为 AI 助手提供「小区评级 / 小区评估 / 房产估值」专业能力的 MCP Server。为房产交易、投资尽调、押品风控等场景提供权威数据支撑。
 
 ---
@@ -74,11 +69,6 @@
   }
 }
 ```
-
-<!-- **推荐**您可以使用我们提供的官方 MCP Server URL：
-
-- 测试环境：`https://testcreis.cih-index.com/mcp-service`
-- 生产环境：`https://creis.cih-index.com/mcp-service` -->
 
 ### 3. 验证连接
 
