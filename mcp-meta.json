@@ -13,12 +13,9 @@
     "CIH",
     "房产评估"
   ],
-  "memory": 0.5,
-  "cpu": 0.25,
-  "min_instances": 1,
-  "max_instances": 1,
-  "port": 3011,
-  "logo": [],
+  "logo": [
+    "https://cihcdn.soufunimg.com/creis/mcp/mcp-icon.jpg/200"
+  ],
   "env_params": {
     "MCP-INDUSTRY-APPID": "MCP 应用 AppID。"
   },
