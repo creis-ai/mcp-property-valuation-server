@@ -15,9 +15,6 @@
     "email": "creisxcx1@fang.com"
   },
   "gitUrl": "https://github.com/creis-ai/mcp-property-valuation-server",
-  "logo": [
-    "https://cihcdn.soufunimg.com/creis/mcp/mcp-icon.jpg/200"
-  ],
   "tools": [
     {
       "name": "get_community_rating",
