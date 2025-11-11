@@ -25,7 +25,7 @@
 
 ## 仓库地址
 
----
+[https://github.com/creis-ai/mcp-property-valuation-server](https://github.com/creis-ai/mcp-property-valuation-server)
 
 ## 🔌 使用方式
 
