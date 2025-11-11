@@ -17,7 +17,7 @@
   "mcpServers": {
     "cih-property-valuation": {
       "transportType": "sse",
-      "url": "https://creis.cih-index.com/mcp-service",
+      "url": "https://creis.cih-index.com/mcp/sse",
       "headers": {
         "MCP-INDUSTRY-APPID": "您的APPID"
       }

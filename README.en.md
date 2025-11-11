@@ -7,11 +7,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![MCP Server](https://img.shields.io/badge/MCP-Server-blue)](https://modelcontextprotocol.io)
 
-<!-- Apply for Access Token -->
-<!-- [![Apply For Access Token](https://img.shields.io/badge/%E7%94%B3%E8%AF%B7%E5%BC%80%E9%80%9A-gray?label=%F0%9F%91%8B)](https://wuye-ai.cricbigdata.com/mcp) -->
-<!-- Practical Guide -->
-<!-- [![Practical Guide](https://img.shields.io/badge/%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%8D%97-gray?label=%F0%9F%A7%AD)](https://wuye-ai.cricbigdata.com/mcp) -->
-
 > An MCP Server that provides AI assistants with professional capabilities for "community rating / community evaluation / property valuation". Offers authoritative data support for real estate transactions, investment due diligence, collateral risk control and other scenarios.
 
 ---
@@ -66,7 +61,7 @@ If you have a public online service address, you can also use SSE mode:
   "mcpServers": {
     "cih-property-valuation": {
       "transportType": "sse",
-      "url": "https://creis.cih-index.com/mcp-service",
+      "url": "https://creis.cih-index.com/mcp/sse",
       "headers": {
         "MCP-INDUSTRY-APPID": "Your APPID"
       }
@@ -74,11 +69,6 @@ If you have a public online service address, you can also use SSE mode:
   }
 }
 ```
-
-<!-- **Recommended** official MCP Server URLs:
-
-- Test Environment: `https://testcreis.cih-index.com/mcp-service`
-- Production Environment: `https://creis.cih-index.com/mcp-service` -->
 
 ### 3. Verify Connection
 
