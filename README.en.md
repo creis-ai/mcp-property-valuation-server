@@ -43,7 +43,7 @@ When this project is officially released to NPM, you can run it directly through
     "property-valuation": {
       "transportType": "stdio",
       "command": "npx",
-      "args": ["-y", "mcp-property-valuation-server"],
+      "args": ["-y", "mcp-property-valuation-server@latest"],
       "env": {
         "MCP-INDUSTRY-APPID": "Your APPID"
       }
