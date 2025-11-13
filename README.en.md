@@ -40,7 +40,7 @@ When this project is officially released to NPM, you can run it directly through
 ```json
 {
   "mcpServers": {
-    "property-valuation": {
+    "cih-property-valuation": {
       "transportType": "stdio",
       "command": "npx",
       "args": ["-y", "mcp-property-valuation-server@latest"],
