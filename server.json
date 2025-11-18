@@ -6,12 +6,12 @@
     "url": "https://github.com/creis-ai/mcp-property-valuation-server",
     "source": "github"
   },
-  "version": "0.0.19",
+  "version": "0.0.20",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "mcp-property-valuation-server",
-      "version": "0.0.19",
+      "version": "0.0.20",
       "transport": {
         "type": "stdio"
       },
