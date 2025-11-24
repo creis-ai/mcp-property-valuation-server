@@ -43,7 +43,7 @@
     "cih-property-valuation": {
       "transportType": "stdio",
       "command": "npx",
-      "args": ["-y", "mcp-property-valuation-server@0.0.22"],
+      "args": ["-y", "mcp-property-valuation-server@0.0.23"],
       "env": {
         "MCP-INDUSTRY-APPID": "您的APPID"
       }

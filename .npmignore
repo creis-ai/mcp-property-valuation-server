@@ -1,0 +1,51 @@
+# Source files
+src/
+*.ts
+!*.d.ts
+
+# Development files
+.gitignore
+.eslintrc.*
+.prettierrc.*
+tsconfig.json
+jest.config.*
+*.test.*
+*.spec.*
+
+# Documentation (keep README.md)
+docs/
+PUBLISHING_GUIDE.md
+
+# Development dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Cache
+.cache/
+.parcel-cache/
+
+# Environment
+.env*
+
+.mcpregistry_github_token
+.mcpregistry_registry_token
