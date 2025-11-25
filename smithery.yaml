@@ -3,8 +3,8 @@
 # 适用于仅 STDIO 启动的 Node.js 服务
 # ==========================================
 
-runtime: typescript
-target: local
+runtime: typescript # 虽然你最终运行 JS，但可以声明 TS /源码方式
+target: local # 本地 / stdio 方式
 
 # 启动方式：使用 Node.js 通过 STDIO 启动 MCP Server
 startCommand:
@@ -35,3 +35,19 @@ configSchema:
 # config 示例（Smithery UI 中展示）
 exampleConfig:
   APPID: "your-appid-here"
+
+# 指定 README，让 Smithery 在 Market 页面显示你的 README 内容
+readme: "./README.md"
+
+# 定义你的能力 (tools)，Smithery 能识别你的 API 功能
+capabilities:
+  tools:
+    - name: get_community_rating
+      title: "Get Community Rating"
+      description: "获取小区评级信息"
+    - name: get_community_valuation
+      title: "Get Community Valuation"
+      description: "获取小区基础估值"
+    - name: get_property_valuation
+      title: "Get Property Valuation"
+      description: "获取单户房产估值"
