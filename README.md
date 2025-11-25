@@ -1,5 +1,6 @@
 # 🏙️ 中指房产估值 MCP
 
+[![smithery badge](https://smithery.ai/badge/@creis-ai/mcp-property-valuation-server)](https://smithery.ai/server/@creis-ai/mcp-property-valuation-server)
 [![NPM Version](https://img.shields.io/npm/v/mcp-property-valuation-server.svg?logo=npm)](https://www.npmjs.com/package/mcp-property-valuation-server)
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D18-green.svg?logo=node.js)](https://nodejs.org)
 [![zh-CN](https://img.shields.io/badge/lang-zh--CN-red.svg)](https://github.com/creis-ai/mcp-property-valuation-server/blob/master/README.md)
@@ -100,9 +101,9 @@
 
 | 字段             | 必填 | 类型   | 说明                             |
 | ---------------- | ---- | ------ | -------------------------------- |
-| `city`           | ✅   | string | 所在城市，例如：“北京”           |
-| `district`       | ✅   | string | 所在区县，例如：“丰台区”         |
-| `community_name` | ✅   | string | 小区名称，例如：“中海丰和叁号院” |
+| `city`           | ✅   | string | 所在城市，例如："北京"           |
+| `district`       | ✅   | string | 所在区县，例如："丰台区"         |
+| `community_name` | ✅   | string | 小区名称，例如："中海丰和叁号院" |
 
 **输出示例:**
 
@@ -122,9 +123,9 @@
 
 | 字段             | 必填 | 类型   | 说明                                              |
 | ---------------- | ---- | ------ | ------------------------------------------------- |
-| `city`           | ✅   | string | 所在城市，例如：“北京”                            |
-| `district`       | ✅   | string | 所在区县，例如：“丰台区”                          |
-| `community_name` | ✅   | string | 小区名称，例如：“中海丰和叁号院”                  |
+| `city`           | ✅   | string | 所在城市，例如："北京"                            |
+| `district`       | ✅   | string | 所在区县，例如："丰台区"                          |
+| `community_name` | ✅   | string | 小区名称，例如："中海丰和叁号院"                  |
 | `start_time`     | ❌   | string | 开始时间，格式：`yyyy-mm`，为空则返回最新月份数据 |
 | `end_time`       | ❌   | string | 结束时间，格式：`yyyy-mm`，为空则返回最新月份数据 |
 
@@ -144,10 +145,10 @@
 
 | 字段             | 必填 | 类型    | 说明                             |
 | ---------------- | ---- | ------- | -------------------------------- |
-| `city`           | ✅   | string  | 所在城市，例如：“北京”           |
-| `district`       | ✅   | string  | 所在区县，例如：“丰台区”         |
-| `community_name` | ✅   | string  | 小区名称，例如：“中海丰和叁号院” |
-| `orientation`    | ✅   | string  | 房屋朝向，例如：“南北”           |
+| `city`           | ✅   | string  | 所在城市，例如："北京"           |
+| `district`       | ✅   | string  | 所在区县，例如："丰台区"         |
+| `community_name` | ✅   | string  | 小区名称，例如："中海丰和叁号院" |
+| `orientation`    | ✅   | string  | 房屋朝向，例如："南北"           |
 | `floor_area`     | ✅   | number  | 建筑面积，单位：㎡               |
 | `located_floor`  | ✅   | integer | 所在楼层                         |
 | `total_floors`   | ✅   | integer | 总楼层数                         |
