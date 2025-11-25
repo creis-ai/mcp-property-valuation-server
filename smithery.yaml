@@ -1,4 +1,4 @@
 runtime: typescript
-target: ./src/index.ts
+target: ./index.js
 env:
   MCP-INDUSTRY-APPID: string
