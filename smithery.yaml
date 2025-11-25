@@ -14,7 +14,7 @@ startCommand:
         command: "node",
         args: ["index.js"],
         env: {
-          MCP_INDUSTRY_APPID: config.APPID
+          'MCP-INDUSTRY-APPID': config.APPID
         }
       };
     }
