@@ -3,6 +3,9 @@
 # 适用于仅 STDIO 启动的 Node.js 服务
 # ==========================================
 
+runtime: typescript
+target: local
+
 # 启动方式：使用 Node.js 通过 STDIO 启动 MCP Server
 startCommand:
   type: stdio
