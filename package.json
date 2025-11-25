@@ -19,6 +19,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.5.0",
+    "chalk": "^5.3.0",
+    "lodash": "^4.17.21",
+    "uuidv7": "^0.6.2",
+    "zod-to-json-schema": "^3.22.5"
+  },
   "main": "index.cjs",
   "author": "CIH <creisxcx1@fang.com>",
   "license": "MIT",
@@ -32,5 +39,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/creis-ai/mcp-property-valuation-server.git"
+  },
+  "devDependencies": {
+    "@smithery/cli": "^1.6.3"
   }
 }
