@@ -1,27 +1,24 @@
-# ==========================================
-# MCP Server 配置文件（Smithery.ai）
-# 适用于仅 STDIO 启动的 Node.js 服务
-# ==========================================
+name: mcp-property-valuation-server
+description: "基于 MCP 的房产估值服务，提供小区评级、小区估值和单户估值能力。"
 
-runtime: typescript # 虽然你最终运行 JS，但可以声明 TS /源码方式
-target: local # 本地 / stdio 方式
+runtime: typescript
+target: local
 
-# 启动方式：使用 Node.js 通过 STDIO 启动 MCP Server
+readme: "./README.md"
+
 startCommand:
   type: stdio
   commandFunction: |
     (config) => {
       return {
         command: "node",
-        args: ["index.js"],   // 你的 JS 入口文件
+        args: ["index.js"],
         env: {
-          // 把用户在 Smithery 填写的 APPID 注入到进程中
           MCP_INDUSTRY_APPID: config.APPID
         }
-      }
+      };
     }
 
-# MCP 服务配置项定义（让使用者在 Smithery 填写）
 configSchema:
   type: object
   required:
@@ -30,16 +27,11 @@ configSchema:
     APPID:
       type: string
       title: "Industry APPID"
-      description: "CREIS Industry AppID，用于鉴权调用房产估值接口"
+      description: "CREIS 行业系统下发的行业 APPID，用于鉴权调用估值接口"
 
-# config 示例（Smithery UI 中展示）
 exampleConfig:
   APPID: "your-appid-here"
 
-# 指定 README，让 Smithery 在 Market 页面显示你的 README 内容
-readme: "./README.md"
-
-# 定义你的能力 (tools)，Smithery 能识别你的 API 功能
 capabilities:
   tools:
     - name: get_community_rating
