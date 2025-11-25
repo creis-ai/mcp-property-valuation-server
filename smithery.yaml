@@ -2,6 +2,7 @@ name: mcp-property-valuation-server
 description: "基于 MCP 的房产估值服务，提供小区评级、小区估值和单户估值能力。"
 
 runtime: typescript
+target: local
 
 readme: "./README.md"
 
