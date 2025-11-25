@@ -2,22 +2,18 @@ name: mcp-property-valuation-server
 description: "基于 MCP 的房产估值服务，提供小区评级、小区估值和单户估值能力。"
 
 runtime: typescript
-target: local
 
 readme: "./README.md"
 
 startCommand:
   type: stdio
-  commandFunction: |
-    (config) => {
-      return {
-        command: "node",
-        args: ["index.js"],
-        env: {
-          'MCP-INDUSTRY-APPID': config.APPID
-        }
-      };
-    }
+  command: npx
+  args:
+    - -y
+    - mcp-property-valuation-server@0.0.24
+    - --stdio
+  env:
+    MCP-INDUSTRY-APPID: "${APPID}"
 
 configSchema:
   type: object

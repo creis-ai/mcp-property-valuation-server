@@ -6,6 +6,7 @@
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/creis-ai/mcp-property-valuation-server/blob/master/README.en.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![MCP Server](https://img.shields.io/badge/MCP-Server-blue)](https://modelcontextprotocol.io)
+[![smithery badge](https://smithery.ai/badge/@creis-ai/mcp-property-valuation-server)](https://smithery.ai/server/@creis-ai/mcp-property-valuation-server)
 
 > 为 AI 助手提供「小区评级 / 小区评估 / 房产估值」专业能力的 MCP Server。为房产交易、投资尽调、押品风控等场景提供权威数据支撑。
 

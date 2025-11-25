@@ -6,6 +6,7 @@
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/creis-ai/mcp-property-valuation-server/blob/master/README.en.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![MCP Server](https://img.shields.io/badge/MCP-Server-blue)](https://modelcontextprotocol.io)
+[![smithery badge](https://smithery.ai/badge/@creis-ai/mcp-property-valuation-server)](https://smithery.ai/server/@creis-ai/mcp-property-valuation-server)
 
 > An MCP Server that provides AI assistants with professional capabilities for "community rating / community evaluation / property valuation". Offers authoritative data support for real estate transactions, investment due diligence, collateral risk control and other scenarios.
 
