@@ -1,2 +1,34 @@
-runtime: typescript
-target: local
+# ==========================================
+# MCP Server 配置文件（Smithery.ai）
+# 适用于仅 STDIO 启动的 Node.js 服务
+# ==========================================
+
+# 启动方式：使用 Node.js 通过 STDIO 启动 MCP Server
+startCommand:
+  type: stdio
+  commandFunction: |
+    (config) => {
+      return {
+        command: "node",
+        args: ["index.js"],   // 你的 JS 入口文件
+        env: {
+          // 把用户在 Smithery 填写的 APPID 注入到进程中
+          MCP_INDUSTRY_APPID: config.APPID
+        }
+      }
+    }
+
+# MCP 服务配置项定义（让使用者在 Smithery 填写）
+configSchema:
+  type: object
+  required:
+    - APPID
+  properties:
+    APPID:
+      type: string
+      title: "Industry APPID"
+      description: "CREIS Industry AppID，用于鉴权调用房产估值接口"
+
+# config 示例（Smithery UI 中展示）
+exampleConfig:
+  APPID: "your-appid-here"
