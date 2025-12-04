@@ -28,7 +28,7 @@
 
 使用本服务前，您需要先获取有效的 `APPID`。
 
-📧 **请联系**: `creisxcx1@fang.com` 获取您的专属 `APPID`。
+📧 **请联系**: `creiskefu@fang.com` 获取您的专属 `APPID`。
 
 ### 2. 配置 MCP 客户端
 
@@ -44,7 +44,7 @@
     "cih-property-valuation": {
       "transportType": "stdio",
       "command": "npx",
-      "args": ["-y", "mcp-property-valuation-server@0.0.24"],
+      "args": ["-y", "mcp-property-valuation-server@0.0.25"],
       "env": {
         "MCP-INDUSTRY-APPID": "您的APPID"
       }
@@ -83,9 +83,9 @@
 
 ## 🔑 授权与认证
 
-本服务需要有效的 `MCP-INDUSTRY-APPID` 才能正常使用。如需获取授权，请联系：
+本服务需要有效的 `MCP-INDUSTRY-APPID` 才能正常使用。如需获取授权,请访问我们的网站申请：[申请开通体验中指房产估值MCP](https://www.cih-index.com/service/mcp.html)
 
-📧 `creisxcx1@fang.com`
+或联系客服人员申请,联系邮箱:`creiskefu@fang.com`
 
 ---
 
@@ -165,7 +165,7 @@
 ## 🤝 合作与支持
 
 - **问题反馈**: 请通过 [GitHub Issues](https://github.com/creis-ai/mcp-property-valuation-server/issues) 提交您的问题或建议。
-- **联系我们**: 如需获取 `APPID`、商务合作或技术支持，请联系 `creisxcx1@fang.com`。
+- **联系我们**: 如需获取 `APPID`、商务合作或技术支持，请联系 `creiskefu@fang.com`。
 
 ---
 

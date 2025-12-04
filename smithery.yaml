@@ -12,7 +12,7 @@ startCommand:
     (config) => {
       return {
         command: "node",
-        args: ["index.js"],
+        args: ["index.cjs"],
         env: {
           'MCP-INDUSTRY-APPID': config.APPID
         }

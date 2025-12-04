@@ -1,12 +1,12 @@
 {
   "name": "mcp-property-valuation-server",
-  "version": "0.0.24",
+  "version": "0.0.25",
   "description": "MCP服务器，提供房产小区评级和评估功能",
   "entry": {
     "command": "npx",
     "args": [
       "-y",
-      "mcp-property-valuation-server@0.0.24",
+      "mcp-property-valuation-server@0.0.25",
       "--stdio"
     ]
   },

@@ -28,7 +28,7 @@
 
 Before using this service, you need to obtain a valid `APPID`.
 
-📧 **Contact**: `creisxcx1@fang.com` to get your exclusive `APPID`.
+📧 **Contact**: `creiskefu@fang.com` to get your exclusive `APPID`.
 
 ### 2. Configure MCP Client
 
@@ -44,7 +44,7 @@ When this project is officially released to NPM, you can run it directly through
     "cih-property-valuation": {
       "transportType": "stdio",
       "command": "npx",
-      "args": ["-y", "mcp-property-valuation-server@0.0.24"],
+      "args": ["-y", "mcp-property-valuation-server@0.0.25"],
       "env": {
         "MCP-INDUSTRY-APPID": "Your APPID"
       }
@@ -83,9 +83,9 @@ After configuration, restart your MCP client. If configured correctly, you shoul
 
 ## 🔑 Authorization and Authentication
 
-This service requires a valid `MCP-INDUSTRY-APPID` to function properly. For authorization, please contact:
+This service requires a valid `MCP-INDUSTRY-APPID` to function properly. To obtain authorization, please visit our website to apply: [Apply for CIH Property Valuation MCP](https://www.cih-index.com/service/mcp.html)
 
-📧 `creisxcx1@fang.com`
+Or contact our customer service, email: `creiskefu@fang.com`
 
 ---
 
@@ -165,7 +165,7 @@ Supports valuation of individual properties, providing estimated total price and
 ## 🤝 Cooperation and Support
 
 - **Feedback**: Please submit your questions or suggestions through [GitHub Issues](https://github.com/creis-ai/mcp-property-valuation-server/issues).
-- **Contact Us**: For APPID acquisition, business cooperation, or technical support, please contact `creisxcx1@fang.com`.
+- **Contact Us**: For APPID acquisition, business cooperation, or technical support, please contact `creiskefu@fang.com`.
 
 ---
 
