@@ -44,7 +44,7 @@
     "cih-property-valuation": {
       "transportType": "stdio",
       "command": "npx",
-      "args": ["-y", "mcp-property-valuation-server@0.0.25"],
+      "args": ["-y", "mcp-property-valuation-server@0.0.27"],
       "env": {
         "MCP-INDUSTRY-APPID": "您的APPID"
       }
@@ -83,7 +83,7 @@
 
 ## 🔑 授权与认证
 
-本服务需要有效的 `MCP-INDUSTRY-APPID` 才能正常使用。如需获取授权,请访问我们的网站申请：[申请开通体验中指房产估值MCP](https://www.cih-index.com/service/mcp.html)
+本服务需要有效的 `MCP-INDUSTRY-APPID` 才能正常使用。如需获取授权,请访问我们的网站申请：[申请开通体验中指房产估值MCP](https://www.cih-index.com/apply/mcp?pageId=/service/mcp)
 
 或联系客服人员申请,联系邮箱:`creiskefu@fang.com`
 

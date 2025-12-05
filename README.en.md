@@ -44,7 +44,7 @@ When this project is officially released to NPM, you can run it directly through
     "cih-property-valuation": {
       "transportType": "stdio",
       "command": "npx",
-      "args": ["-y", "mcp-property-valuation-server@0.0.25"],
+      "args": ["-y", "mcp-property-valuation-server@0.0.27"],
       "env": {
         "MCP-INDUSTRY-APPID": "Your APPID"
       }
@@ -83,7 +83,7 @@ After configuration, restart your MCP client. If configured correctly, you shoul
 
 ## 🔑 Authorization and Authentication
 
-This service requires a valid `MCP-INDUSTRY-APPID` to function properly. To obtain authorization, please visit our website to apply: [Apply for CIH Property Valuation MCP](https://www.cih-index.com/service/mcp.html)
+This service requires a valid `MCP-INDUSTRY-APPID` to function properly. To obtain authorization, please visit our website to apply: [Apply for CIH Property Valuation MCP](https://www.cih-index.com/apply/mcp?pageId=/service/mcp)
 
 Or contact our customer service, email: `creiskefu@fang.com`
 
